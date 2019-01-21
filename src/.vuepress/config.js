@@ -15,6 +15,11 @@ module.exports = {
 		logo: '/vuepress-blog-logo.png',
 		docsDir: 'src'
 	},
+	markdown: {
+		extendMarkdown: md => {
+			md.use(require('markdown-it-task-lists'))
+		  }
+	},
 	plugins: [
 		[
 			'@vuepress/google-analytics',
