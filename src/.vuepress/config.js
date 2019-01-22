@@ -10,6 +10,7 @@ module.exports = {
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
+			{ text: 'About', link: '/about/'},
 			{ text: 'RSS Feed', link: '/rss.xml' }
 		],
 		logo: '/vuepress-blog-logo.png',
